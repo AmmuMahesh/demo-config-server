@@ -1,4 +1,4 @@
 msg: welcome to cart-service
 
 server:
- port:4444
+ port: 4444
