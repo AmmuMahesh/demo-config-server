@@ -1,6 +1,7 @@
 server:
   port: 9093  # custom port
-spring:  
+
+spring:
   datasource:
     url: jdbc:h2:mem:paymentsdb
     driver-class-name: org.h2.Driver
@@ -21,6 +22,6 @@ spring:
       hibernate:
         format_sql: true
 
-  msg: Welcome to Payment Service 
+msg: Welcome to Payment Service
 
   
