@@ -1,5 +1,5 @@
 server:
-  port: 9093
+  port: 9093  # custom port for Payment Service
 
 spring:
   datasource:
@@ -10,7 +10,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update   # create-drop / update / validate / none
+      ddl-auto: create       # Options: create, update, validate, none
       show-sql: true
       properties:
         hibernate:
