@@ -1,4 +1,4 @@
-msg: welcome to cart-service
+msg: welcome to cart-service Microservice
 
 server:
  port: 4446
